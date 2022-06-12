@@ -39,7 +39,9 @@ public class MainActivity extends AppCompatActivity {
     TextView comp;
     ImageView iconview;
     private final String url = "https://api.openweathermap.org/data/2.5/weather";
-    private final String appid = "89bbfb30a1f1c94bd6eab6a1ff9563e5";
+
+    //TO DO: DONT FORGET TO REWRITE THE APIKEY!!!!
+    private final String appid = "my api key";
     DecimalFormat df = new DecimalFormat("#.##");
     String[] compliments = {"Прекрасный выбор!", "Сегодня вы выглядите потрясающе!"};
 
